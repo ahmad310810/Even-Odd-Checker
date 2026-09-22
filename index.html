@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app">
+
+        <section class="checker-card">
+
+            <div class="icon">
+                #
+            </div>
+
+            <p class="badge">JAVASCRIPT PROJECT</p>
+
+            <h1>Even <span>/</span> Odd Checker</h1>
+
+            <p class="description">
+                Enter any number and instantly find out whether it is
+                even or odd.
+            </p>
+
+            <div class="input-group">
+                <label for="numberInput">Enter a number</label>
+
+                <input
+                    type="number"
+                    id="numberInput"
+                    placeholder="e.g. 24"
+                    autocomplete="off"
+                >
+            </div>
+
+            <div class="buttons">
+                <button id="checkBtn" class="check-btn">
+                    Check Number
+                </button>
+
+                <button id="resetBtn" class="reset-btn">
+                    Reset
+                </button>
+            </div>
+
+            <div id="result" class="result">
+                <div class="result-icon">?</div>
+
+                <div>
+                    <span class="result-label">RESULT</span>
+                    <h2 id="resultText">Enter a number</h2>
+                </div>
+            </div>
+
+            <p class="tip">
+                💡 Tip: A number divisible by 2 is an even number.
+            </p>
+
+        </section>
+
+        <footer>
+            Built with <strong>HTML</strong>, <strong>CSS</strong> &
+            <strong>JavaScript</strong>
+        </footer>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
